@@ -24,6 +24,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 
   /* Cold Evening
     background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);*/
@@ -61,4 +62,11 @@ body {
 
 .relogio span.tempo {
   font-size: 15px;
+}
+
+.titulo {
+  font-size: 60px;
+  margin-bottom: 100px;
+  height: 100px;
+  opacity: 50%;
 }
