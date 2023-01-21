@@ -70,3 +70,10 @@ body {
   height: 100px;
   opacity: 50%;
 }
+
+.button {
+  margin-top: 300px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  position: static;
+}
