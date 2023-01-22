@@ -19,10 +19,14 @@ const relogio = setInterval(function time() {
   segundos.textContent = s;
 });
 
-const button = document.querySelector("button");
-if (button) {
-  button.addEventListener("click", (event) => {
-    event.preventDefault();
-    document.body.setAttribute;
-  });
-}
+document.getElementById("loonCrest").addEventListener("click", function () {
+  document.querySelector("body").setAttribute("class", "looncrest");
+});
+
+document.getElementById("coldEvening").addEventListener("click", function () {
+  document.querySelector("body").setAttribute("class", "coldevening");
+});
+
+document.getElementById("amyCrisp").addEventListener("click", function () {
+  document.querySelector("body").setAttribute("class", "amycrisp");
+});

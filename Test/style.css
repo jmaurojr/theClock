@@ -9,4 +9,17 @@ body {
 .amarelo {
   background-color: yellow;
   transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.vermelho {
+  background-color: red;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.azul {
+  background-color: blue;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
 }

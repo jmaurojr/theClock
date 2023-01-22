@@ -8,26 +8,11 @@
 
 body {
   height: 100vh;
-  /*Loon Crest*/
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(0, 0, 0, 0.15) 100%
-    ),
-    radial-gradient(
-        at top center,
-        rgba(255, 255, 255, 0.4) 0%,
-        rgba(0, 0, 0, 0.4) 120%
-      )
-      #989898;
   background-blend-mode: multiply, multiply;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
-  /* Cold Evening
-    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);*/
 }
 
 .relogio {
@@ -76,4 +61,63 @@ body {
   margin-right: 50px;
   margin-bottom: 50px;
   position: static;
+}
+
+.looncrest {
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+}
+
+.coldevening {
+  background-image: linear-gradient(
+    to top,
+    #0c3483 0%,
+    #a2b6df 100%,
+    #6b8cce 100%,
+    #a2b6df 100%
+  );
+}
+
+.amycrisp {
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+
+#loonCrest {
+  color: #fff;
+  font-size: larger;
+  background-color: #7f7f7f;
+  padding: 10px;
+  border-radius: 15px;
+  margin: none;
+  border: 0;
+  opacity: 100%;
+}
+
+#coldEvening {
+  color: #fff;
+  font-size: larger;
+  background-color: #6b8cce;
+  padding: 10px;
+  border-radius: 15px;
+  margin: none;
+  border: 0;
+}
+
+#amyCrisp {
+  color: #fff;
+  font-size: larger;
+  background-color: #f68084;
+  padding: 10px;
+  border-radius: 15px;
+  margin: none;
+  border: 0;
 }
