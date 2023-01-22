@@ -1,0 +1,12 @@
+:root {
+  --color-yellow: #ffee00;
+}
+
+body {
+  background-color: gray;
+}
+
+.amarelo {
+  background-color: yellow;
+  transition: all 0.25s ease-in-out;
+}
